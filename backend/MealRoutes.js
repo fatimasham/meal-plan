@@ -6,6 +6,6 @@ const router = Router();
 router.get('/', getMeal);
 router.post('/saveMeals', saveMeals);
 router.post('/deleteMeal', deleteMeal)
-router.post('editMeal', editMeal)
+router.post('/editMeal', editMeal)
 
 module.exports = router;
